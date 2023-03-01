@@ -21,7 +21,7 @@ def main():
         videoIds = [line.strip() for line in lines]
         
     playlistId = ytmusic.create_playlist(playlist_name, playlist_description,'PRIVATE', videoIds)
-    print("Success: created playlist \"" + playlist_name + "\"\n" +
+    print("Created playlist from IDs: \"" + playlist_name + "\"\n" +
             "https://music.youtube.com/playlist?list=" + playlistId)
 
 if __name__ == "__main__":
