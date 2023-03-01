@@ -18,6 +18,8 @@ Your request headers can be obtained via music.youtube.com from the Network tab 
 
 Then, you will use the video_ids.txt file to provide the tool with any Youtube video IDs in list format from your Youtube links (one ID per line). These IDs will have to be isolated externally in bulk, which may be performed simply by using a spreadsheet program with relevant formulae (will change to internal possibly in the future).
 
+You may also edit the playlist name, description, and visibility inside the 'main.py' file. 
+
 ## Run & Output data
 
 Then run the tool via 'python main.py' from the relevant path. Your playlist link will be provided as a print message.
