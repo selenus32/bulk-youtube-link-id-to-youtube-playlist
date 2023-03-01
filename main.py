@@ -1,20 +1,14 @@
 from ytmusicapi import YTMusic
 import os
-import json
 
 USER_ID = os.getenv('USER_ID')
-HEADERS = os.getenv('HEADERS')
-
-headers = HEADERS
-headers_dict = dict(headers)
-headers_json = json.dumps(headers_dict)
 
 playlist_name = 'INPUT NAME HERE'
 playlist_description = 'INPUT DESCRIPTION HERE'
 
 class YTvideoIDtoPlaylist:
     def __init__(self):
-        self.api = YTMusic(f'{HEADERS}', f'{USER_ID}')
+        self.api = YTMusic('headers_auth.json', f'{USER_ID}')
 
     def create_playlist(self, name, info, privacy="PRIVATE", tracks=None):
         return self.api.create_playlist(name, info, privacy, video_ids=tracks)
