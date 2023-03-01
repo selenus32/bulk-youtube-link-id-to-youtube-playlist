@@ -1,5 +1,4 @@
 # youtube link to youtube playlist
- youtube link ID to youtube playlist
 
 This program may fulfill any need to bulk transfer Youtube links from wherever to a Youtube music/normal Youtube playlist.
 
