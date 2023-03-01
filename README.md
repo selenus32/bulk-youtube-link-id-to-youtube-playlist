@@ -1,6 +1,6 @@
 # bulk youtube link id to youtube playlist
 
-This program may fulfill any need to bulk transfer Youtube links from wherever to a Youtube music/normal Youtube playlist.
+This program may fulfill any need to bulk transfer Youtube links from wherever to a Youtube music/normal Youtube playlist. My motivation for creating this tool was to avoid using unreliable/untrustworthy third-party apps or performing time-wasting manual efforts to bulk transfer around ~1k youtube songs via their link IDs to a youtube playlist.
 
 You will need Python 3 and the 'ytmusicapi' library, which can be obtained via 'pip install ytmusicapi'.
 
