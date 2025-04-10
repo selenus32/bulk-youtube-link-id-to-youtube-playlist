@@ -2,7 +2,7 @@ from ytmusicapi import YTMusic
 import time
 ytmusic = YTMusic("browser.json")
 
-playlist_name = 'funky posts 3'
+playlist_name = 'empty'
 playlist_description = 'empty'
 
 playlistId = ytmusic.create_playlist(playlist_name, playlist_description)
